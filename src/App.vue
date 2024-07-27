@@ -4,7 +4,8 @@ import HelloWorld from './components/HelloWorld.vue'
 
 <template>
   <div>
-      <div class="card flex justify-center">
+    <RouterView />
+      <!-- <div class="card flex justify-center">
         <Button label="Check" icon="pi pi-check" />
     </div>
     <a href="https://vitejs.dev" target="_blank">
@@ -12,9 +13,9 @@ import HelloWorld from './components/HelloWorld.vue'
     </a>
     <a href="https://vuejs.org/" target="_blank">
       <img src="./assets/vue.svg" class="logo vue" alt="Vue logo" />
-    </a>
+    </a> -->
   </div>
-  <HelloWorld msg="Vite + Vue" />
+  <!-- <HelloWorld msg="Vite + Vue" /> -->
 </template>
 
 <style scoped>
