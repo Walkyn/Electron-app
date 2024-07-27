@@ -4,7 +4,10 @@ import App from './App.vue'
 import PrimeVue from 'primevue/config';
 import Aura from '@primevue/themes/aura';
 import router from './router'
-import Button from "primevue/button"
+// material icons
+import 'material-icons/iconfont/material-icons.css';
+// primevue icons
+import 'primeicons/primeicons.css';
 
 createApp(App)
 .use(router)
@@ -13,7 +16,7 @@ createApp(App)
         preset: Aura
     }
 })
-.component('Button', Button)
+// .component('Button', Button)
 .mount('#app')
 
 

@@ -12,6 +12,8 @@
   },
   "dependencies": {
     "@primevue/themes": "^4.0.2",
+    "material-icons": "^1.13.12",
+    "primeicons": "^7.0.0",
     "primevue": "^4.0.2",
     "vue": "^3.4.31",
     "vue-router": "^4.4.0"

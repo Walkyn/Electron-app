@@ -10,7 +10,7 @@
         </div>
         <div class="flex items-center mb-6">
           <img
-            src="assets/img/ico-logo.png"
+            src="/img/ico-logo.png"
             alt="Karupin Logo"
             width="50"
             height="50"
@@ -53,8 +53,8 @@
           </div>
           <div class="flex justify-between">
             <a
-              href="app/home.html"
               class="bg-pink-700 text-white py-2 px-8 rounded-lg flex items-center"
+              @click="$router.push({ name: 'Home' })"
             >
               <span class="material-icons mr-2">login</span> Iniciar
             </a>
@@ -68,7 +68,7 @@
         </form>
       </div>
       <img
-        src="assets/img/panel.jpg"
+        src="/img/panel.jpg"
         alt="Image"
         class="hidden md:block w-1/2 object-cover rounded-l-lg h-full pl-36"
       />
